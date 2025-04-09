@@ -15,6 +15,12 @@
   <!-- Rootdir -->
   <project path="libcore" name="LineageOS/android_libcore" groups="pdk" remote="LineageOS" />
 
+  <project path="system/keymint" name="LineageOS/android_system_keymint" groups="pdk" />
+  <project path="external/skia" name="LineageOS/android_external_skia" groups="pdk,qcom_msm8x26" />
+  <project path="external/dng_sdk" name="LineageOS/android_external_dng_sdk" groups="pdk" />
+  <project path="external/conscrypt" name="LineageOS/android_external_conscrypt" groups="pdk" />
+  <project path="external/giflib" name="LineageOS/android_external_giflib" groups="pdk,qcom_msm8x26" />
+
   <!-- Build -->
   <project path="build/release" name="LineageOS/android_build_release" groups="pdk,tradefed" remote="LineageOS" />
 
